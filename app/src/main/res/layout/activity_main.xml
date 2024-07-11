@@ -52,11 +52,23 @@
             android:importantForAutofill="no" />
 
     <EditText
+            android:id="@+id/editTextRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rating"
+            android:layout_below="@id/editTextImageUrl"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            tools:ignore="HardcodedText"
+            android:importantForAutofill="no" />
+
+    <EditText
             android:id="@+id/editTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Product ID for Deletion"
-            android:layout_below="@id/editTextImageUrl"
+            android:layout_below="@id/editTextRating"
             android:layout_marginTop="8dp"
             android:inputType="number"
             android:minHeight="48dp"
@@ -81,5 +93,13 @@
             android:layout_marginTop="16dp"
             tools:ignore="HardcodedText" />
 
-</RelativeLayout>
+    <Button
+            android:id="@+id/buttonViewGroceryList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Grocery List"
+            android:layout_below="@id/buttonDelete"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
 
+</RelativeLayout>
