@@ -23,6 +23,7 @@
         <!-- Grocery List Activity -->
         <activity android:name=".GroceryListActivity"
                   android:exported="false"/>
+        <activity android:name=".ShoppingCartActivity" />
 
     </application>
 

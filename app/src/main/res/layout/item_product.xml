@@ -8,9 +8,9 @@
 
     <ImageView
             android:id="@+id/imageViewProduct"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="200dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="fitCenter" />
 
     <TextView
             android:id="@+id/textViewProductName"
@@ -25,6 +25,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"/>
+    <TextView
+            android:id="@+id/textViewProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/holo_blue_dark"/>
 
     <TextView
             android:id="@+id/textViewProductRating"
@@ -32,4 +38,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textColor="@android:color/holo_green_dark"/>
+
+    <CheckBox
+            android:id="@+id/checkBoxProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Add to Cart" />
+
+
 </LinearLayout>
